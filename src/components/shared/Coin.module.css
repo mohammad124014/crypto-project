@@ -1,0 +1,54 @@
+.coin {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #e7e7e7; */
+  border-bottom: 1px solid rgb(170, 170, 170);
+  color: white;
+  padding: 22px 40px;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+}
+
+.coin:nth-last-child(){
+  border: none;
+} 
+
+.coin img {
+  width: 35px;
+}
+
+.coin h1 {
+  padding-left: 5px;
+  font-size: 13px;
+  width: 20%;
+  font-weight: bold;
+}
+
+.coin p {
+  width: 15%;
+  text-align: left;
+}
+
+.coin p:nth-of-type(1) {
+  padding-left: 15px;
+}
+
+.coin p:nth-of-type(4) {
+  min-width: 20%;
+}
+
+.market_cap {
+  width: 20%;
+}
+
+.greenChangePercent {
+  color: rgb(0, 218, 36);
+}
+.redChangePercent {
+  color: red;
+}
